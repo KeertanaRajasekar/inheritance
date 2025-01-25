@@ -1,0 +1,43 @@
+import java.util.*;
+    
+       class A
+       {
+           public static void college()
+            {
+                System.out.println("Hello");
+            }
+       }
+       class B extends A
+       {
+            public static void school()
+            {
+                System.out.println("Hi");
+            }
+       }
+        class C extends A
+       {
+            public static void university()
+            {
+                System.out.println("welcome");
+            }
+       }
+        class D extends A
+       {
+            public static void home()
+            {
+                System.out.println("Thank you");
+            }
+       }
+        public class Main
+       {
+            public static void main(String args[])
+            {
+                B ob1 = new B();
+                C ob2 = new C();
+                D ob3 = new D();
+                ob1.college();
+                ob1.school();
+                ob2.university();
+                ob3.home();
+            }
+       }
